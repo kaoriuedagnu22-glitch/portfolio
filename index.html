@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="サイト概要を入力"><!--サイトの説明-->
+  <meta name="keywords" content="サイトキーワードを,で区切って入力"><!--任意の対策キーワード-->
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!--メディアクエリ-->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+  <title>PORTFOLIO</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+ <!--ここからヘッダー-->
+ <header>
+   <div class="container">
+     <div class="row">
+       <!--logo-->
+         <div class="col-9 col-sm-10 col-md-10 col-lg-3">
+          <h1 id="PORTFOLIO">PORTFOLIO</h1>
+         </div>
+       <!--logo-->
+
+       <!--nav-->
+          <div class="col-3 col-sm-2 col-md-2 col-lg-9">
+           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             <div class="container-fluid">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="#PORTFOLIO">Home</a>
+                  </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#Introduction">Introduction</a>
+                   </li>
+                   <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Skill
+                     </a>
+                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                       <li><a class="dropdown-item" href="#skill1">HTML/CSS</a></li>
+                       <li><a class="dropdown-item" href="#skill2">Bootstrap4・5</a></li>
+                       <li><a class="dropdown-item" href="#skill3">Photoshop/Illustrater</a></li>
+                       <li><a class="dropdown-item" href="#skill4">PremirePro</a></li>
+                       <li><hr class="dropdown-divider"></li>
+                       <li><a class="dropdown-item" href="#">戻る</a></li>
+                     </ul>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#Works">Works</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" href="#Instagram">Instagram</a>
+                   </li>
+                 </ul>
+                 <form class="d-flex">
+                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                   <button class="btn btn-outline-success" type="submit">Search</button>
+                 </form>
+                </div>
+             </div>
+           </nav>
+         </div>
+       <!--nav-->
+         
+     </div><!--row-->
+    </div><!--container-->
+ </header>
+ <!--ここまでヘッダー-->
+
+ <section>
+   <div class="container">
+     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+       <div class="carousel-indicators">
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+       </div>
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <img src="./img/sea_camera.png" class="d-block w-100" alt="...">
+           <div class="carousel-caption d-none d-md-block">
+             <p>I create custom designs to meet your order.</p>
+             <p>---オーダーに合わせてデザインいたします。---</p>
+             <p>Beautiful things, and delicious things too.</p>
+             <p>---美しいものも。おいしいものも。---</p>
+           </div>
+         </div>
+         <div class="carousel-item">
+            <img src="./img/pansy_camera.png" class="d-block w-100" alt="...">
+           <div class="carousel-caption d-none d-md-block">
+             <p>I create custom designs to meet your order.</p>
+             <p>---オーダーに合わせてデザインいたします。---</p>
+             <p>Beautiful things, and delicious things too.</p>
+             <p>---美しいものも。おいしいものも。---</p>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <img src="./img/cake_camera.png" class="d-block w-100" alt="...">
+           <div class="carousel-caption d-none d-md-block">
+             <p>I create custom designs to meet your order.</p>
+             <p>---オーダーに合わせてデザインいたします。---</p>
+             <p>Beautiful things, and delicious things too.</p>
+             <p>---美しいものも。おいしいものも。---</p>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <img src="./img/river_camera.png" class="d-block w-100" alt="...">
+           <div class="carousel-caption d-none d-md-block">
+             <p>I create custom designs to meet your order.</p>
+             <p>---オーダーに合わせてデザインいたします。---</p>
+             <p>Beautiful things, and delicious things too.</p>
+             <p>---美しいものも。おいしいものも。---</p>
+           </div>
+         </div>
+         <div class="carousel-item">
+           <img src="./img/breakfast_camera.png" class="d-block w-100" alt="...">
+           <div class="carousel-caption d-none d-md-block">
+             <p>I create custom designs to meet your order.</p>
+             <p>---オーダーに合わせてデザインいたします。---</p>
+             <p>Beautiful things, and delicious things too.</p>
+             <p>---美しいものも。おいしいものも。---</p>
+           </div>
+         </div>
+       </div><!--carousel-inner-->
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Next</span>
+       </button>
+     </div><!--carousel-->
+   </div><!--container-->
+ </section>
+
+ <!--ここからIntroduction-->
+ <section>
+   <div class="container">
+     <h2 id="Introduction">Introduction</h2>
+     <div class="clearfix">
+       <img src="./img/my_small.png" class="col-md-4 col-sm-12 float-md-end mb-3 ms-md-3" alt="...">
+       <h3>＜Kaori Ueda＞</h3>
+       <p>【経験】
+         <br>調理師の資格取得後、ホテルやレストランでのコックを経験しました。
+         <br>その後、歯科助手・受付・事務などの仕事を経て、ポスター制作やInstagramの投稿作成に携わり、
+         <br> WEBデザインに興味を持つようになりました。
+         <br>仕事をしながら独学でPhotoshopから勉強を始め、Illustraterも使用し、PremireProで動画編集ができるようになりました。
+         <br>現在では、HTML/CSSでWEB制作もしております。
+         <br>
+         <br>
+         <br>【お仕事内容】
+         <br>WEBバナー・チラシデザイン・Instagram用広告デザインなどを行っております。
+         <br>結婚式などのムービー作成（生い立ちムービーや、登場ムービーなど）もお気軽にお問い合わせください。
+         <br>お仕事のご依頼は、InstagramのDMより、お願いいたします。
+         <br>ご相談からでも構いません。
+         <br>お待ちしております！
+         <br>Instagramアカウント
+         <br>@kaori_portfolio_1212
+       </p>
+     </div>
+   </div>
+ </section>
+ <!--ここまでIntroduction-->
+ 
+ <!--ここからSkill-->
+ <section>
+   <div class="container">
+     <div class="row">
+       <div class="col-12 col-sm-12 col-md-12"><h2 id="Skill">Skill</h2></div>
+       <!--ここからアコーディオン-->
+       <div class="accordion accordion-flush" id="accordionFlushExample">
+         <!--ひとつあたりここから-->
+         <div class="accordion-item">
+           <h3 class="accordion-header" id="flush-headingOne">
+             <button id="skill1" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+               HTML/CSS
+             </button>
+           </h3>
+           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+             <div class="accordion-body">
+               <p>
+                 <code>HTML/CSS</code>を学んでおり、 Webサイトを制作することができます。
+                 <br>本Webサイトも自身で制作いたしました。
+                 <br>Webサイト依頼の際は、どのようなデザインをご希望か、対象とする年齢層など色々なことをお聞かせいただければ幸いです。
+               </p>
+             </div>
+           </div>
+         </div>
+         <!--ひとつあたりここまで-->
+         <!--ひとつあたりここから-->
+         <div class="accordion-item">
+           <h3 class="accordion-header" id="flush-headingThree">
+             <button id="skill2" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+               Bootstrap4・5
+             </button>
+           </h3>
+           <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+             <div class="accordion-body">
+               <p>
+                 <code>Bootstrap（ブートストラップ）</code>とは、WebサイトやWebアプリケーションの見た目を効率よく作成するための、
+                 <br>世界でも有名な「フロントエンドフレームワーク」です。
+                 <br>ご依頼であれば、<code>Bootstrap4・5</code>を使用し、Webサイトを制作できます。
+                 <br>こんな感じで作りたい！などご希望に合わせて部分的に使用もできます。
+                 <br>本サイトも部分的にBootstrap5を使用し、制作しております。
+                 <br>どうぞお気軽にお申し付けください。
+               </p>
+             </div>
+           </div>
+         </div>
+         <!--ひとつあたりここまで-->
+         <!--ひとつあたりここから-->
+         <div class="accordion-item">
+           <h3 class="accordion-header" id="flush-headingTwo">
+             <button id="skill3" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+               Photoshop/Illustrater
+             </button>
+           </h3>
+           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+             <div class="accordion-body">
+               <p>
+                 本サイト内Worksに掲載中のデザインはすべて<code>Photoshop/Illustrater</code>で制作したものです。
+                 <br><code>Photoshop</code>は画像編集などを得意としており、<code>Illustrater</code>はロゴ作成やイラストを得意としています。
+                 <br><code>Photoshop</code>を使用することのほうが多いですが、作りたいイメージや作品に応じて使い分けています。
+               </p>
+             </div>
+           </div>
+         </div>
+         <!--ひとつあたりここまで-->
+         <!--ひとつあたりここから-->
+         <div class="accordion-item">
+           <h3 class="accordion-header" id="flush-headingThree">
+             <button id="skill4" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+               PremirePro
+             </button>
+           </h3>
+           <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+             <div class="accordion-body">
+               <p>
+                 <code>PremirePro</code>を使用し、動画編集も行っております。
+                 <br>結婚式などのムービー（生い立ちムービーや、登場ムービーなど）も制作実績があります。
+                 <br>動画撮影から行い、CM風のムービーや、ドキュメンタリー風の動画を制作・編集した経験もあります。
+                 <br>"お笑い系"や"感動系"などご依頼に合わせて、編集いたします。
+                 <br>お気軽にお問い合わせください。
+               </p>
+             </div>
+           </div>
+         </div>
+         <!--ひとつあたりここまで-->
+       </div>
+       <!--ここまでアコーディオン-->
+     </div><!--row--->
+   </div><!--container-->
+ </section>
+ <!--ここまでSkill-->
+
+ <!--ここからカード-->
+     <section>
+       <div class="container">
+       <div class="row">
+         <div class="col-12 col-sm-12 col-md-12"><h2 id="Works">Works</h2></div>
+         <div class="row">
+           <!--カードスタート-->
+           <div class="col-sm-6 col-md-4">
+             <div class="card" style="width: 18rem;">
+               <img src="./img/summer sale （インスタ広告）.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">SUMMER SALE<br>（Instagram広告）</h3>
+                 <p class="card-text">爽やかな海をバックにサマーセール用のInstagram広告を作成いたしました。<br>※実際の広告ではなく、サンプルです。</p>
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card1">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card1" tabindex="-1" aria-labelledby="card1" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card1">SUMMER SALE（Instagram広告）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/summer sale （インスタ広告）.jpg" class="card-img-top" alt="...">
+                             </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+               </div>
+             </div>
+           </div>
+           <!--カードエンド-->
+           <!--カードスタート-->
+           <div class="col-sm-6 col-md-4">
+             <div class="card" style="width: 18rem;">
+               <img src="./img/クロワッサン専門店（インスタ広告）.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">クロワッサン専門店（Instagram広告）</h3>
+                 <p class="card-text">クロワッサン専門店開店に向けたInstagram広告を作成いたしました。<br>※実際の広告ではなく、サンプルです。</p>
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card2">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card2" tabindex="-1" aria-labelledby="card2" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card2">クロワッサン専門店（Instagram広告）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/クロワッサン専門店（インスタ広告）.jpg" class="card-img-top" alt="...">
+                       </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+                 
+               </div>
+             </div>
+           </div>
+           <!--カードエンド-->
+           <!--カードスタート-->
+           <div class="col-sm-6 col-md-4">
+             <div class="card" style="width: 18rem;">
+               <img src="./img/COFFEE SHOP（インスタ広告）.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">コーヒー豆定期購入便（Instagram広告）</h3>
+                 <p class="card-text">コーヒー豆定期購入便の<br>Instagram広告を作成いたしました。<br>※実際の広告ではなく、サンプルです。</p>
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card3">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card3" tabindex="-1" aria-labelledby="card3" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card3">コーヒー豆定期購入便（Instagram広告）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/COFFEE SHOP（インスタ広告）.jpg" class="card-img-top" alt="...">
+                       </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+               </div>
+             </div>
+           </div>
+           <!--カードエンド-->
+           <!--カードスタート-->
+           <div class="col-sm-6 col-md-4">
+             <div class="card" style="width: 18rem;">
+               <img src="./img/サッカー観戦キャンペーン1（インスタ広告）.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">生ビールキャンペーン（Instagram広告）</h3>
+                 <p class="card-text">生ビールご購入でサッカー観戦チケットが当たるキャンペーンの<br>Instagram広告を作成いたしました。<br>※実際の広告ではなく、サンプルです。</p>
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card4">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card4" tabindex="-1" aria-labelledby="card4" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card4">生ビールキャンペーン（Instagram広告）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/サッカー観戦キャンペーン1（インスタ広告）.jpg" class="card-img-top" alt="...">
+                       </div>
+                       <div class="modal-footer">
+                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+               </div>
+             </div>
+           </div>
+           <!--カードエンド-->
+           <!--カードスタート-->
+           <div class="col-sm-6 col-md-4">
+             <div class="card" style="width: 18rem;">
+               <img src="./img/サッカー部員募集（インスタ広告）.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">サッカー部員募集<br>（Instagram広告）</h3>
+                 <p class="card-text">元気な印象の爽やかな色をベースに<br>サッカークラブの部員募集の<br>Instagram広告を作成いたしました。<br>※実際の広告ではなく、サンプルです。</p>
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card5">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card5" tabindex="-1" aria-labelledby="card5" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card5">サッカー部員募集（Instagram広告）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/サッカー部員募集（インスタ広告）.jpg" class="card-img-top" alt="...">
+                             </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+               </div>
+             </div>
+           </div>
+           <!--カードエンド-->
+           <!--カードスタート-->
+           <div class="col-sm-6 col-md-4">
+             <div class="card" style="width: 18rem;">
+               <img src="./img/お花の定期便（インスタ広告）.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">お花定期購入便<br>（Instagram広告）</h3>
+                 <p class="card-text"></p>お花定期購入便の<br>Instagram広告を作成いたしました。<br>※実際の広告ではなく、サンプルです。</p>
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card6">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card6" tabindex="-1" aria-labelledby="card6" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card6">お花定期購入便（Instagram広告）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/お花の定期便（インスタ広告）.jpg" class="card-img-top" alt="...">
+                             </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+               </div>
+             </div>
+           </div>
+           <!--カードエンド-->
+           <!--カードスタート2列-->
+           <div class="col-sm-12 col-md-6">
+             <div class="card">
+               <img src="./img/旅行代理店（バナー広告）.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">旅行代理店<br>（バナー広告）</h3>
+                 <p class="card-text">素敵な景色をバックに旅行代理店のバナー広告を作成いたしました。※実際の広告ではなく、サンプルです。</p>
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card7">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card7" tabindex="-1" aria-labelledby="card7" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card7">旅行代理店（バナー広告）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/旅行代理店（バナー広告）.jpg" class="card-img-top" alt="...">
+                             </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+               </div>
+             </div>
+           </div>
+           <!--カードエンド2列-->
+           <!--カードスタート2列-->
+           <div class="col-sm-12 col-md-6">
+             <div class="card">
+               <img src="./img/スキンケア商品（バナー広告）.jpg" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">スキンケア商品<br>（バナー広告）</h3>
+                 <p class="card-text">スキンケア化粧品のバナー広告を作成いたしました。<br>※実際の広告ではなく、サンプルです。</p>
+                <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card8">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card8" tabindex="-1" aria-labelledby="card8" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card7">スキンケア商品（バナー広告）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/スキンケア商品（バナー広告）.jpg" class="card-img-top" alt="...">
+                             </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+               </div>
+             </div>
+           </div>
+           <!--ここまでカードエンド2列-->
+           <!--ここからカードエンドまた3列-->
+           <!--カードスタート-->
+           <div class="col-sm-6 col-md-4">
+             <div class="card" style="width: 18rem;">
+               <img src="./img/20250528 Apticke1.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">LifeStyle雑誌<br>（A4サイズ）</h3>
+                 <p class="card-text">爽やかな海をバックにライフスタイル雑誌風の表紙を作成いたしました。<br>※実際の雑誌ではなく、サンプルです。</p>
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card9">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card9" tabindex="-1" aria-labelledby="card9" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card9">LifeStyle雑誌（A4サイズ）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/20250528 Apticke1.png" class="card-img-top" alt="...">
+                             </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+               </div>
+             </div>
+           </div>
+           <!--カードエンド-->
+           <!--カードスタート-->
+           <div class="col-sm-6 col-md-4">
+             <div class="card" style="width: 18rem;">
+               <img src="./img/20250528 Apticke2.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">Hobby雑誌<br>（A4サイズ）</h3>
+                 <p class="card-text">ハイキング中の山をバックにホビー雑誌風の表紙を作成いたしました。<br>※実際の雑誌ではなく、サンプルです。</p>
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card10">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card10" tabindex="-1" aria-labelledby="card10" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card10">Hobby雑誌（A4サイズ）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/20250528 Apticke2.png" class="card-img-top" alt="...">
+                             </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                           </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+               </div>
+             </div>
+           </div>
+           <!--カードエンド-->
+           <!--カードスタート-->
+           <div class="col-sm-6 col-md-4">
+             <div class="card" style="width: 18rem;">
+               <img src="./img/20250528 Apticke３.png" class="card-img-top" alt="...">
+               <div class="card-body">
+                 <h3 class="card-title">Wine雑誌<br>（A4サイズ）</h3>
+                 <p class="card-text">
+                   おしゃれなワイナリー内をバックに、ワイン雑誌風の表紙を作成いたしました。
+                   <br>※実際の雑誌ではなく、サンプルです。
+                 </p>
+                 <!-- Button trigger modal -->
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card11">
+                   大きくする
+                 </button>
+
+                 <!-- Modal -->
+                 <div class="modal fade" id="card11" tabindex="-1" aria-labelledby="card11" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h4 class="modal-title fs-5" id="card11">Wine雑誌（A4サイズ）</h4>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                         <img src="./img/20250528 Apticke３.png" class="card-img-top" alt="...">
+                       </div>
+                       <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- Button trigger modal -->
+               </div>
+             </div>
+           </div>
+           <!--カードエンド-->
+           <!--ここまでカードエンドまた3列-->
+         </div><!--row-->
+       </div> <!--row-->
+       </div><!--container-->
+     </section>
+   </div><!--container-->
+ </section>
+ <!--ここまでカード-->
+
+
+
+
+
+
+
+
+
+ <!--ここに入力-->
+ <!--ここからInstagram-->
+ <section>
+   <div class="container">
+     <div class="row">
+       <div class="col-12"><h2 id="Instagram">Instagram</h2></div>
+
+        <div class="col-sm-12 col-md-5">
+           <p> Instagramに作品や、お仕事中の様子をUPしています。
+             <br>ぜひご覧になってください。
+             <br>気になる作品がありましたら、いいね♡やコメントで教えてください！
+             <br>またお仕事のご依頼は、InstagramのDMよりお願いいたします。
+             <br>Follow me!<br>@kaori_portfolio_1212
+           </p>
+          </div><!--4--> 
+
+        <div class="col-sm-12 col-md-7 text-center">
+           <img src="./img/insta_2.png" style="width:150px;" alt="...">
+           <img src="./img/qrinsta.jpg" style="width:150px;" alt="...">
+         </div><!--8-->
+
+
+          <div class="col-12 text-center">
+           <img src="./img/Follow me.png" style="width:200px;" alt="...">
+         </div><!--12--> 
+
+     </div><!--rou-->
+   </div><!--container-->
+ </section>
+ <!--ここまでInstagram-->
+
+
+ <!--ここからフッター-->
+ <footer>
+   <footer class="py-4 bg-dark text-light">
+     <div class="container text-center">
+       <!-- ナビゲーション -->
+       <ul class="nav justify-content-center mb-3">
+         <li class="nav-item">
+           <a class="nav-link" href="#PORTFOLIO">Home</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#Introduction">Introduction</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#Skill">Skill</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#Works">Works</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#Instagram">Instagram</a>
+         </li>
+       </ul>
+       <!-- ナビゲーション -->
+       <p>
+         <small>Copyright © 2026 KaoriPortfolio. All Rights Reserved.</small>
+       </p>
+     </div>
+   </footer>
+ </footer>
+ <!--ここまでフッター-->
+
+ <!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
